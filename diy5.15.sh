@@ -41,7 +41,7 @@ git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 # svn co https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
 git clone https://github.com/linkease/istore package/istore
 git clone https://github.com/linkease/istore-ui package/istore-ui
-# git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
+git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 git clone https://github.com/fw876/helloworld.git package/ssr
 git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
