@@ -22,18 +22,18 @@ sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' packag
 # curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm 
 # curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
 # curl -fsSL  https://raw.githubusercontent.com/firkerword/luci-app-bypass/main/Makefile > ./package/luci-app-bypass/Makefile
-curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yaml > ./package/openwrt-mos/luci-app-mosdns/root/etc/mosdns/cus_config.yaml
+# curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yaml > ./package/openwrt-mos/luci-app-mosdns/root/etc/mosdns/cus_config.yaml
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.11.1/g' ./package/base-files/files/bin/config_generate
 # sed -i '60s/ITdesk01/firkerword/' ./package/jd_openwrt_script/files/jd_openwrt_script
 sed -i 's/bootstrap/argon-18.06/g' ./feeds/luci/collections/luci/Makefile
-sed -i 's/mosdns_neo/mosdns/g' ./package/feeds/danshui/luci-app-mosdns/Makefile
 
 # rm -rf ./package/lean/luci-app-qbittorrent
 rm -rf ./feeds/luci/luci-theme-argon
 rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/mosdns
+rm -rf ./feeds/packages/net/mosdns_neo
 # rm -rf ./package/openwrt-passwall/v2ray-geodata
 # rm -rf ./package/ssr/v2ray-geodata
 # rm -rf ./package/diy-ziyong/adguardhome
