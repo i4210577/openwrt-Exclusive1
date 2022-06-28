@@ -22,6 +22,7 @@ git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git kiddin https://github.com/kiddin9/openwrt-packages' feeds.conf.default
+git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
 
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
@@ -29,7 +30,7 @@ git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 # svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
 # svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 # svn co https://github.com/linkease/istore/trunk/luci/luci-app-store package/luci-app-store
-# sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-store/Makefile
+sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-store/Makefile
 # svn co https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
 # git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
