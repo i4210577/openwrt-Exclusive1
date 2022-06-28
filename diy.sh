@@ -29,12 +29,15 @@ sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_genera
 sed -i 's/bootstrap/argon-18.06/g' ./feeds/luci/collections/luci/Makefile
 sed -i 's/mosdns_neo/mosdns/g' ./package/feeds/danshui/luci-app-mosdns/Makefile
 
+# rm -rf ./package/lean/luci-app-qbittorrent
 rm -rf ./feeds/luci/luci-theme-argon
 rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/mosdns
-#rm -rf ./package/openwrt-passwall/v2ray-geodata
-#rm -rf ./package/ssr/v2ray-geodata
+# rm -rf ./package/openwrt-passwall/v2ray-geodata
+# rm -rf ./package/ssr/v2ray-geodata
+# rm -rf ./package/diy-ziyong/adguardhome
+# rm -rf ./feeds/packages/net/https-dns-proxy
 # svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev package/lean/shadowsocksr-libev
 # svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-passwall feeds/passwall/luci-app-passwall
 # svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ssr-plus feeds/helloworld/luci-app-ssr-plus
