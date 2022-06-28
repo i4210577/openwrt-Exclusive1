@@ -27,11 +27,12 @@ curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yam
 sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
 # sed -i '60s/ITdesk01/firkerword/' ./package/jd_openwrt_script/files/jd_openwrt_script
 sed -i 's/bootstrap/argon-18.06/g' ./feeds/luci/collections/luci/Makefile
+sed -i 's/mosdns_neo/mosdns/g' ./package/feeds/danshui/luci-app-mosdns/Makefile
 
-#rm -rf ./feeds/luci/luci-theme-argon
-#rm -rf ./feeds/packages/net/adguardhome
-#rm -rf ./feeds/packages/net/smartdns
-#rm -rf ./feeds/packages/net/mosdns
+rm -rf ./feeds/luci/luci-theme-argon
+rm -rf ./feeds/packages/net/adguardhome
+rm -rf ./feeds/packages/net/smartdns
+rm -rf ./feeds/packages/net/mosdns
 #rm -rf ./package/openwrt-passwall/v2ray-geodata
 #rm -rf ./package/ssr/v2ray-geodata
 # svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev package/lean/shadowsocksr-libev
