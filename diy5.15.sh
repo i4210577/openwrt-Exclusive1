@@ -54,6 +54,7 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-ser
 # git clone https://github.com/yichya/luci-app-xray.git package/luci-app-xray
 # git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netdata
 # git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
+git clone https://github.com/wx1wxc/luci-app-fileassistant package/fileassistant
 
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-18.06
