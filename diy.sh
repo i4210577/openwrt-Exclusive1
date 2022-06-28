@@ -51,3 +51,6 @@ rm -rf ./package/ssr/v2ray-geodata
 # find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-redir/shadowsocksr-libev-alt/g' {}
 # find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-server/shadowsocksr-libev-server/g' {}
 # svn co https://github.com/project-openwrt/openwrt/trunk/package/lean/dnsforwarder package/lean/dnsforwarder
+# sed -i 's/mosdns_neo/mosdns/g' ./package/feeds/danshui/luci-app-mosdns/Makefile
+# sudo rm -rf ./package/feeds/danshui/luci-app-cupsd
+# sudo rm -rf ./feeds/danshui/luci-app-cupsd
