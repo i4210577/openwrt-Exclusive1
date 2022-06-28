@@ -21,8 +21,9 @@ sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.15/g' ./target/linux/x86/Make
 git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-# sed -i '$a src-git kiddin https://github.com/kiddin9/openwrt-packages' feeds.conf.default
-# git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
+sed -i '$a src-git kiddin https://github.com/kiddin9/openwrt-packages' feeds.conf.default
+git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
+# echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
 
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
