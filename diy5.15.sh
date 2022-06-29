@@ -34,8 +34,8 @@ git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 # git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
 sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-store/Makefile
-# sed -i 's/luci-lib-ipkg/luci-base/g' package/feeds/kenzok/luci-app-store/Makefile
-git clone https://github.com/linkease/istore package/luci-app-store
+sed -i 's/luci-lib-ipkg/luci-base/g' package/feeds/kenzok/luci-app-store/Makefile
+git clone https://github.com/linkease/istore package/luci/luci-app-store
 git clone https://github.com/linkease/istore-ui package/app-istore-ui
 git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
