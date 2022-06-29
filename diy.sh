@@ -28,7 +28,9 @@ curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yam
 sed -i 's#192.168.1.1#192.168.11.1#g' package/base-files/files/bin/config_generate
 # sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
 # sed -i '60s/ITdesk01/firkerword/' ./package/jd_openwrt_script/files/jd_openwrt_script
-# sed -i 's/luci-lib-ipkg/luci-base/g' package/feeds/kenzok/luci-app-store/Makefile
+sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-store/Makefile
+sed -i 's/luci-lib-ipkg/luci-base/g' package/feeds/kenzok/luci-app-store/Makefile
+sed -i 's/luci-lib-ipkg/luci-base/g' feeds/kenzok/luci-app-store/Makefile
 sed -i 's/bootstrap/argon-18.06/g' ./feeds/luci/collections/luci/Makefile
 # sed -i 's/mosdns_neo/mosdns/g' openwrt/feeds/kenzok/luci-app-mosdns/Makefile
 # sed -i 's/mosdns_neo/mosdns/g' openwrt/feeds/kenzok/mosdns/Makefile
