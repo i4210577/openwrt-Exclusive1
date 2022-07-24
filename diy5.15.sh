@@ -31,14 +31,14 @@ git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+# git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 # git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-store/Makefile
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/feeds/kenzok/luci-app-store/Makefile
 # git clone https://github.com/linkease/istore package/luci/luci-app-store
 # git clone https://github.com/linkease/istore-ui package/app-istore-ui
 # git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
-git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
+# git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 git clone https://github.com/fw876/helloworld.git package/ssr
 git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
