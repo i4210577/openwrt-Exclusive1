@@ -53,9 +53,12 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-ser
 # git clone https://github.com/shidahuilang/luci-app-fileassistant package/luci-app-fileassistant
 git clone https://github.com/sbwml/openwrt-alist.git package/openwrt-alist
 
-git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-18.06
-git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
+#git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-18.06
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-master
+#git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
+#git clone -b 19.07 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
+git clone https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 # git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
