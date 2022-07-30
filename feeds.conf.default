@@ -1,9 +1,9 @@
 #src-git packages https://github.com/coolsnowwolf/packages
 #src-git luci https://github.com/coolsnowwolf/luci
-src-git routing https://git.openwrt.org/feed/routing.git
+src-git routing https://git.openwrt.org/feed/routing.git;openwrt-22.03
 src-git telephony https://git.openwrt.org/feed/telephony.git
-src-git packages https://git.openwrt.org/feed/packages.git
-src-git luci https://git.openwrt.org/project/luci.git
+src-git packages https://git.openwrt.org/feed/packages.git;openwrt-22.03
+src-git luci https://git.openwrt.org/project/luci.git;openwrt-22.03
 #src-git freifunk https://github.com/freifunk/openwrt-packages.git
 #src-git video https://github.com/openwrt/video.git
 #src-git targets https://github.com/openwrt/targets.git
@@ -14,3 +14,6 @@ src-git helloworld https://github.com/fw876/helloworld.git
 src-git kenzok https://github.com/kenzok8/openwrt-packages.git
 src-git small https://github.com/kenzok8/small.git
 #src-git kiddin https://github.com/kiddin9/openwrt-packages.git
+src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
+#src-git packages https://github.com/immortalwrt/packages.git;master
+#src-git luci https://github.com/immortalwrt/luci.git;master
