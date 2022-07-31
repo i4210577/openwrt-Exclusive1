@@ -59,6 +59,7 @@ git clone https://github.com/sbwml/openwrt-alist.git package/openwrt-alist
 #git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-18.06
 git clone -b 21.02 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-21.02
+git clone -b 21.02 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-master
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 #git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
 git clone -b 19.07 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
