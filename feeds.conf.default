@@ -1,5 +1,6 @@
-#src-git packages https://github.com/coolsnowwolf/packages
-#src-git luci https://github.com/coolsnowwolf/luci
+src-git packages https://github.com/coolsnowwolf/packages
+src-git luci https://github.com/coolsnowwolf/luci
+#src-git routing https://github.com/coolsnowwolf/routing
 src-git routing https://git.openwrt.org/feed/routing.git
 src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git packages https://git.openwrt.org/feed/packages.git
@@ -18,5 +19,5 @@ src-git passwall https://github.com/xiaorouji/openwrt-passwall
 
 #src-git packages https://github.com/immortalwrt/packages.git;master
 #src-git luci https://github.com/immortalwrt/luci.git;master
-src-git packages https://github.com/immortalwrt/packages
-src-git luci https://github.com/immortalwrt/luci
+#src-git packages https://github.com/immortalwrt/packages
+#src-git luci https://github.com/immortalwrt/luci
